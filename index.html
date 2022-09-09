@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra/Papel/Tesoura</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Jokenpô</h1>
+        <div>           
+            <div>
+                <div id="playerOne"></div>
+                <div class="cross">X</div>
+                <div id="playerTwo"></div>
+            </div>
+            <div>
+                <div class="local">
+                    <div>Player 1</div>
+                    <div id="round-1" class="box-1"></div>
+                    <div id="round-2" class="box-2"></div>
+                    <div id="round-3" class="box-3"></div>
+                    <div id="round-4" class="box-4"></div>
+                    <div id="round-5" class="box-5"></div>
+                    <div id="resultadoPlayerOne" class="box-0">0</div>
+                </div>
+                <div><button id="play" onclick="jogar()">Jogar</button></div>
+                <div class="local">
+                    <div>Player 2</div>
+                    <div id="round1-1" class="box2-1"></div>
+                    <div id="round1-2" class="box2-2"></div>
+                    <div id="round1-3" class="box2-3"></div>
+                    <div id="round1-4" class="box2-4"></div>
+                    <div id="round1-5" class="box2-5"></div>
+                    <div id="resultadoPlayerTwo" class="box-0">0</div>
+                </div>
+            </div>            
+        </div>
+        <ul>
+            <li><div class="vitoria"></div> Vitória</li>
+            <li><div class="derrota"></div> Derrota</li>
+            <li><div class="empate"></div> Empate</li>
+        </ul>
+    </div>
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,122 @@
+.container{
+    width: 650px;
+    margin: 0 auto;   
+}
+
+.container>div>div{
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.container>div{
+    border: #000 1px solid;
+    padding: 10px;
+    background-color: gainsboro;
+    
+}
+
+
+#playerOne,
+#playerTwo,
+.cross {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+}
+
+.cross {
+    font-size: xx-large;
+    font-weight: 900;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+}
+
+.local {
+    display: flex;
+    margin-top: 10px;
+}
+.local>div{
+    font-size: larger;
+    font-weight: bold;
+}
+#play{
+    width: 150px;   
+    background-color: #0f0;
+    color: #000;
+    font-size: x-large;
+}
+#play:hover{
+transform: scale(1.1);
+}
+
+[class ^="box-"],
+[class ^="box2-"],
+[class ^="boxjs-"],
+[class ^="box2js-"] {
+    border: 1px #000 solid;
+    width: 10px;
+    margin-left: 10px;
+}
+
+/* -------box- JS */
+.boxjs-1v,
+.boxjs-2v,
+.boxjs-3v,
+.boxjs-4v,
+.boxjs-5v,
+.box2js-1v,
+.box2js-2v,
+.box2js-3v,
+.box2js-4v,
+.box2js-5v {
+    background-color: #0f0;
+}
+
+.boxjs-1d,
+.boxjs-2d,
+.boxjs-3d,
+.boxjs-4d,
+.boxjs-5d,
+.box2js-1d,
+.box2js-2d,
+.box2js-3d,
+.box2js-4d,
+.box2js-5d {
+    background-color: #f00;
+}
+
+
+
+.box-0{
+    width: 15px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.vitoria,.derrota,.empate{
+    width: 10px;
+    height: 15px;
+    border: #000 solid 1px;
+    display: inline-block;
+}
+.vitoria{
+    background-color: #0f0;
+}
+.derrota{
+    background-color: #f00;
+}
+.empate{
+    background-color: #DCDCDC;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
